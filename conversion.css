@@ -74,3 +74,8 @@
   .wd-home .hero-actions .primary-action { flex: 1 1 100%; }
   .wd-home .calc-result { padding: 20px; }
 }
+
+/* Keep the demo controls unobstructed and the button type legible. */
+.wd-home .demo-run { font-family: inherit; font-size: 12px; font-weight: 750; line-height: 1.2; }
+.wd-home .scene-corner { top: 80px; right: -26px; left: auto; bottom: auto; transform: rotate(5deg); pointer-events: none; }
+@media(max-width:700px) { .wd-home .scene-corner { display: none; } }
