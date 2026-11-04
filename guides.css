@@ -41,3 +41,12 @@ body.wd-guide{background:#f6f6f0;color:#172821;font-family:Inter,ui-sans-serif,s
 .wd-legal main p{max-width:690px;font-size:16px;color:#506357;line-height:1.85}
 .wd-legal main a{text-decoration:underline;text-underline-offset:4px;color:#265b35}
 @media(max-width:760px){.wd-legal main{padding:0 12px}.wd-legal main>section{margin:20px auto 48px;padding:42px 24px!important;border-radius:21px}.wd-legal main h1{font-size:clamp(38px,9vw,54px)}}
+
+/* Compact high-intent CTA without interrupting editorial content */
+.wd-guide .article .article-quickstart { display: flex; align-items: center; justify-content: space-between; gap: 19px; padding: 20px 23px; background: #edf2e8; border: 1px solid #d8e5d1; border-radius: 15px; margin: 26px 0 39px; }
+.wd-guide .article .article-quickstart strong { display: block; color: #26452d; font-size: 16px; letter-spacing: -.03em; }
+.wd-guide .article .article-quickstart p { margin: 5px 0 0; color: #657a68; font-size: 13px; line-height: 1.55; max-width: 400px; }
+.wd-guide .article .article-quickstart a.quickstart-link { flex-shrink: 0; display: inline-flex; min-height: 46px; justify-content: center; align-items: center; padding: 12px 15px; background: #24422f; border-radius: 9px; color: #fff !important; text-decoration: none !important; font-size: 13px; font-weight: 800; text-align: center; }
+.wd-guide .article .article-quickstart a.quickstart-link:hover { background: #3f6145; }
+.wd-guide .article .article-quickstart a.quickstart-link:focus-visible { outline: 3px solid #93b77d; outline-offset: 3px; }
+@media(max-width:650px) { .wd-guide .article .article-quickstart { flex-direction: column; align-items: stretch; gap: 13px; padding: 18px; } .wd-guide .article .article-quickstart a.quickstart-link { width: 100%; } }
