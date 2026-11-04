@@ -32,3 +32,12 @@ body.wd-guide{background:#f6f6f0;color:#172821;font-family:Inter,ui-sans-serif,s
 .wd-guide footer a{font-size:13px;color:#426149}
 @media(max-width:760px){.wd-guide header{width:calc(100% - 20px);margin:8px auto 0;top:8px;flex-direction:row;align-items:center;padding:11px 12px;gap:12px;border-radius:14px}.wd-guide .brand{font-size:12px;gap:7px}.wd-guide .brand-mark{width:33px;height:33px;font-size:21px}.wd-guide nav{gap:12px}.wd-guide nav a{font-size:12px}.wd-guide nav a:last-child{display:none}.wd-guide main{padding:0 12px}.wd-guide .article{margin:20px auto 45px;padding:39px 23px 50px!important;border-radius:21px}.wd-guide .article h1{font-size:clamp(36px,8.2vw,51px)!important;line-height:1.08}.wd-guide .article h2{font-size:clamp(26px,6vw,33px)!important}.wd-guide .article .intro,.wd-guide .article>p:first-of-type{font-size:17px}.wd-guide .article .button{display:flex;width:100%;text-align:center}.wd-guide .article .sample table{min-width:530px}.wd-guide footer{padding:24px 20px;flex-direction:column}}
 @media(max-width:360px){.wd-guide .brand{font-size:10px}.wd-guide nav a:nth-child(2){display:none}}
+
+/* Informational/legal pages share the editorial design */
+.wd-legal main{max-width:1170px;margin:auto;padding:0 24px}
+.wd-legal main>section{max-width:860px;margin:54px auto 85px;padding:64px 70px!important;background:#fffefa;border:1px solid #e0e7dc;border-radius:27px;box-shadow:0 22px 60px rgba(39,64,45,.045)}
+.wd-legal main h1{font-size:clamp(43px,6vw,68px);letter-spacing:-.075em;line-height:1.08;margin:0 0 28px;color:#193226}
+.wd-legal main h2{font-size:27px;letter-spacing:-.045em;color:#244532;margin:37px 0 12px}
+.wd-legal main p{max-width:690px;font-size:16px;color:#506357;line-height:1.85}
+.wd-legal main a{text-decoration:underline;text-underline-offset:4px;color:#265b35}
+@media(max-width:760px){.wd-legal main{padding:0 12px}.wd-legal main>section{margin:20px auto 48px;padding:42px 24px!important;border-radius:21px}.wd-legal main h1{font-size:clamp(38px,9vw,54px)}}
