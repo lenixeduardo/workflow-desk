@@ -1,0 +1,34 @@
+
+/* Workflow Desk editorial reading experience — articles and informational pages */
+body.wd-guide{background:#f6f6f0;color:#172821;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+.wd-guide header{position:sticky;top:12px;z-index:90;max-width:1240px;width:calc(100% - 48px);margin:14px auto 0;padding:13px 20px;border:1px solid #dce7dc;border-radius:17px;background:rgba(255,255,252,.96);box-shadow:0 8px 25px rgba(24,42,29,.045)}
+.wd-guide .brand{display:inline-flex;align-items:center;gap:10px;white-space:nowrap;font-weight:850;letter-spacing:-.05em;font-size:15px;text-decoration:none}
+.wd-guide .brand-mark{display:grid;place-items:center;width:36px;height:36px;background:#172821;color:#d6f77e;border-radius:11px;font-size:23px;font-weight:900;letter-spacing:-.12em;padding-right:3px}
+.wd-guide nav a{font-size:13px;font-weight:700;color:#526758;text-decoration:none}
+.wd-guide nav a:hover{color:#172821}
+.wd-guide main{max-width:1280px;padding:0 24px;min-width:0}
+.wd-guide .article{box-sizing:border-box;max-width:860px;margin:50px auto 75px;padding:68px 72px 78px;background:#fffefa;border:1px solid #e0e7dc;border-radius:27px;box-shadow:0 22px 60px rgba(39,64,45,.045);overflow-wrap:break-word}
+.wd-guide .article>.eyebrow{display:inline-flex;color:#5b765b;background:#e8f4dc;border:1px solid #daebcc;border-radius:50px;padding:9px 13px;font-size:10px;letter-spacing:.11em;font-weight:800}
+.wd-guide .article h1{font-size:clamp(42px,5vw,67px);letter-spacing:-.075em;line-height:1.075;margin:27px 0 24px;color:#172821;font-weight:850}
+.wd-guide .article>p:first-of-type,.wd-guide .article .intro{font-size:19px;line-height:1.75;color:#556859;margin:0 0 30px;max-width:700px}
+.wd-guide .article p,.wd-guide .article li{color:#4d6054;line-height:1.85}
+.wd-guide .article h2{font-size:clamp(28px,3.5vw,37px);letter-spacing:-.057em;line-height:1.17;color:#193226;margin-top:52px}
+.wd-guide .article h3{color:#223f2e;letter-spacing:-.035em}
+.wd-guide .article a:not(.button){color:#244e31;text-decoration:underline;text-underline-offset:4px}
+.wd-guide .article .note{padding:20px 23px;border:1px solid #d6e8cc;background:#eef7e7;border-radius:15px;color:#39553e;margin:31px 0 36px}
+.wd-guide .article .note strong{color:#23462d}
+.wd-guide .article li{padding-left:4px}
+.wd-guide .article li::marker{color:#668e61;font-weight:750}
+.wd-guide .article section{padding:0;border:0}
+.wd-guide .article section.deep-dive{padding-top:28px;border-top:1px solid #e1e8de}
+.wd-guide .article .sample{border:1px solid #d9e3d6;border-radius:13px;overflow-x:auto;max-width:100%;-webkit-overflow-scrolling:touch}
+.wd-guide .article .sample th{background:#e8f4da;color:#24472b}
+.wd-guide .article .sample td{background:#fffefa;color:#4b6050}
+.wd-guide .article .button{background:#213b2c;color:#fff;padding:17px 24px;border-radius:10px;display:inline-flex;align-items:center;justify-content:center;min-height:50px;font-size:14px;font-weight:750;margin-top:15px}
+.wd-guide .article .button:hover{background:#375b3e}
+.wd-guide .article .disclose{color:#7d8a7e;font-size:12px}
+.wd-guide .article [aria-label="Related guides"]{border-top:1px solid #e1e8de!important;margin-top:45px;padding:24px 0 0!important}
+.wd-guide footer{max-width:1250px;border-top:1px solid #dce7dc;color:#6e7d72;padding:28px 35px}
+.wd-guide footer a{font-size:13px;color:#426149}
+@media(max-width:760px){.wd-guide header{width:calc(100% - 20px);margin:8px auto 0;top:8px;flex-direction:row;align-items:center;padding:11px 12px;gap:12px;border-radius:14px}.wd-guide .brand{font-size:12px;gap:7px}.wd-guide .brand-mark{width:33px;height:33px;font-size:21px}.wd-guide nav{gap:12px}.wd-guide nav a{font-size:12px}.wd-guide nav a:last-child{display:none}.wd-guide main{padding:0 12px}.wd-guide .article{margin:20px auto 45px;padding:39px 23px 50px!important;border-radius:21px}.wd-guide .article h1{font-size:clamp(36px,8.2vw,51px)!important;line-height:1.08}.wd-guide .article h2{font-size:clamp(26px,6vw,33px)!important}.wd-guide .article .intro,.wd-guide .article>p:first-of-type{font-size:17px}.wd-guide .article .button{display:flex;width:100%;text-align:center}.wd-guide .article .sample table{min-width:530px}.wd-guide footer{padding:24px 20px;flex-direction:column}}
+@media(max-width:360px){.wd-guide .brand{font-size:10px}.wd-guide nav a:nth-child(2){display:none}}
