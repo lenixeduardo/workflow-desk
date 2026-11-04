@@ -1,0 +1,76 @@
+/* Conversion-focused enhancements: scoped to the Workflow Desk home page. */
+.wd-home .hero-copy h1 { max-width: 660px; font-size: clamp(49px,5.8vw,86px); }
+.wd-home .hero-copy h1 em { white-space: normal; color: #71946a; }
+.wd-home .hero-copy .hero-lead strong { color: #23432c; font-weight: 750; }
+.wd-home .hero-actions { gap: 12px 22px; align-items: center; margin-top: 30px; }
+.wd-home .hero-actions .secondary-action { display: inline-flex; align-items: center; min-height: 48px; color: #274831; }
+.wd-home .hero-affiliate-note { font-size: 12px; color: #728073; line-height: 1.55; margin: 13px 0 0; }
+.wd-home .hero-affiliate-note a { color: #44644c; text-decoration: underline; text-underline-offset: 3px; }
+.wd-home .home-hero { min-height: 660px; }
+.wd-home .scenario-demo { position: relative; padding-top: 15px; margin-top: 5px; display: flex; gap: 10px; align-items: center; justify-content: space-between; flex-wrap: wrap; }
+.wd-home .demo-run { appearance: none; border: 1px solid #aac7b0; background: #e7f9d1; color: #173522; font: 750 12px/1.2 inherit; font-family: inherit; border-radius: 9px; padding: 12px 16px; min-height: 43px; cursor: pointer; }
+.wd-home .demo-run:hover { background: #d6f77e; }
+.wd-home .demo-run:focus-visible { outline: 3px solid #d6f77e; outline-offset: 3px; }
+.wd-home .demo-status { color: #d4e9d6; font-size: 12px; max-width: 210px; line-height: 1.5; }
+.wd-home .demo-caption { color: #c0d1c3; font-size: 11px; line-height: 1.5; margin: 13px 0 0; max-width: 100%; }
+.wd-home .flow-card.is-running { outline: 3px solid #d6f77e; outline-offset: 2px; }
+.wd-home .flow-card.is-done { border-color: #c2dbad; background: #f0fbe9; }
+.wd-home .example-strip { padding: 42px 0 !important; display: grid; grid-template-columns: minmax(0,1fr) auto; gap: 32px; align-items: center; border-bottom: 1px solid #dce3d9; }
+.wd-home .example-strip .example-label { color: #557354; font-size: 11px; letter-spacing: .13em; font-weight: 800; }
+.wd-home .example-strip h2 { font-size: clamp(23px,2.7vw,35px); line-height: 1.16; margin: 9px 0 7px; letter-spacing: -.055em; }
+.wd-home .example-strip p { font-size: 14px; color: #617168; line-height: 1.65; margin: 0; }
+.wd-home .example-actions { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+.wd-home .example-actions a { min-height: 45px; display: inline-flex; align-items: center; justify-content: center; padding: 12px 16px; border-radius: 10px; font-size: 13px; font-weight: 750; white-space: normal; }
+.wd-home .example-actions a:first-child { background: #e3ebdc; color: #21402d; }
+.wd-home .example-actions a:last-child { border: 1px solid #c3d4be; color: #2b4f33; }
+.wd-home .calculator-section { padding: 108px 0 112px!important; }
+.wd-home .calculator-layout { display: grid; grid-template-columns: minmax(0,.96fr) minmax(0,1.04fr); gap: 48px; align-items: center; }
+.wd-home .calculator-copy h2 { font-size: clamp(42px,5vw,65px); line-height: 1.08; letter-spacing: -.075em; margin: 15px 0 20px; }
+.wd-home .calculator-copy p { font-size: 16px; line-height: 1.75; color: #617369; max-width: 460px; }
+.wd-home .calculator-copy .calc-cta { display: inline-flex; margin-top: 20px; font-size: 14px; text-decoration: underline; text-underline-offset: 5px; color: #24452c; font-weight: 750; }
+.wd-home .calculator { background: #e9f0e5; border: 1px solid #d1dfcd; border-radius: 24px; padding: 29px; box-shadow: 9px 9px 0 #e0e9da; }
+.wd-home .calc-header { display: flex; justify-content: space-between; gap: 12px; align-items: center; margin: 0 0 22px; }
+.wd-home .calc-header strong { font-size: 16px; letter-spacing: -.035em; }
+.wd-home .calc-header span { font-size: 11px; text-transform: uppercase; letter-spacing: .08em; color: #66836b; font-weight: 800; }
+.wd-home .calc-field { margin: 20px 0; }
+.wd-home .calc-field label { display: flex; justify-content: space-between; align-items: center; gap: 12px; font-size: 14px; color: #3f5745; font-weight: 700; }
+.wd-home .calc-field output { display: inline-flex; min-width: 68px; justify-content: flex-end; font-size: 15px; color: #172d21; font-weight: 850; font-variant-numeric: tabular-nums; }
+.wd-home .calc-field input[type=range] { display: block; width: 100%; margin: 15px 0 5px; accent-color: #2f6840; min-height: 28px; cursor: pointer; }
+.wd-home .calc-limits { display: flex; justify-content: space-between; color: #758c7b; font-size: 11px; }
+.wd-home .calc-result { background: #1f3c2b; color: white; border-radius: 16px; padding: 26px; margin: 26px 0 0; }
+.wd-home .calc-result span { color: #cce2c8; display: block; font-size: 12px; }
+.wd-home .calc-result strong { display: block; font-size: clamp(36px,4vw,55px); letter-spacing: -.065em; margin: 3px 0; font-variant-numeric: tabular-nums; color: #d6f77e; }
+.wd-home .calc-result small { display: block; font-size: 12px; color: #cbdcca; line-height: 1.6; }
+.wd-home .calc-caveat { font-size: 11px; line-height: 1.6; color: #617569; margin: 15px 0 0; max-width: none; }
+.wd-home .trust-section { padding: 90px 0 106px !important; }
+.wd-home .trust-grid { display: grid; grid-template-columns: minmax(0,.92fr) minmax(0,1.08fr); gap: 48px; align-items: start; }
+.wd-home .trust-section h2 { font-size: clamp(36px,4.3vw,56px); letter-spacing: -.07em; margin: 16px 0; }
+.wd-home .trust-section p { color: #617369; line-height: 1.75; font-size: 15px; }
+.wd-home .trust-points { display: grid; gap: 12px; }
+.wd-home .trust-point { background: #fffefa; border: 1px solid #dbe5d6; padding: 20px 22px; border-radius: 15px; }
+.wd-home .trust-point strong { display: block; font-size: 15px; color: #27412f; }
+.wd-home .trust-point p { margin: 5px 0 0; font-size: 13px; }
+.wd-home .trust-link { font-weight: 750; color: #315b38; text-decoration: underline; text-underline-offset: 3px; }
+.wd-home .last-word { padding-top: 80px!important; }
+@media(max-width:900px) {
+  .wd-home .calculator-layout { gap: 27px; }
+  .wd-home .trust-grid { gap: 25px; }
+  .wd-home .example-strip { grid-template-columns: 1fr; gap: 17px; }
+}
+@media(max-width:700px) {
+  .wd-home .calculator-layout,.wd-home .trust-grid { grid-template-columns: 1fr; }
+  .wd-home .calculator-section { padding: 75px 0 87px!important; }
+  .wd-home .trust-section { padding: 75px 0 84px!important; }
+  .wd-home .calculator { padding: 21px; }
+  .wd-home .hero-actions { align-items: stretch; }
+  .wd-home .hero-actions .secondary-action { justify-content: center; }
+  .wd-home .example-strip { padding: 32px 0!important; }
+  .wd-home .example-actions a { flex: 1 1 180px; }
+}
+@media(max-width:400px) {
+  .wd-home .hero-copy h1 { font-size: clamp(42px,11.8vw,56px); }
+  .wd-home .scenario-demo { gap: 7px; }
+  .wd-home .demo-status { max-width: 140px; }
+  .wd-home .hero-actions .primary-action { flex: 1 1 100%; }
+  .wd-home .calc-result { padding: 20px; }
+}
